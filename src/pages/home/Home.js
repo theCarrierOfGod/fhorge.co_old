@@ -2,13 +2,13 @@ import React from 'react'
 import Footer from '../components/Footer/Footer'
 import Navigation from '../components/Navigation/Navigation'
 import Earn from './../Earn/Earn'
-import  Search  from './../search/search'
+import  Switch  from './../switch/Switch'
 
 const Home = () => {
   return (
     <>
       <Navigation />
-      <Earn/>
+      <Switch />
       
 
       <Footer />
